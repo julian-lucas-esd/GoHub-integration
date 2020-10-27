@@ -1,0 +1,1 @@
+Git d'intégration de la maquette de GOHUB
