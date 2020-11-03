@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin: auto;
+  padding: 25px 0px;
+}
+
+.row {
+  margin: 75px 0px;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+}
+
+#header {
+  background-image: url('../img/illustr_city.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+#logo {
+  max-width: 160px;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu ul {
+  margin-left: auto;
+}
+
+#menu ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 15px;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: #32325d;
+  font-weight: 600;
+  padding: 10px;
+  border: 2px transparent solid;
+}
+
+#menu ul li a:hover {
+  background-color: #845cff;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #845cff;
+  border: 2px transparent solid;
+  color: white !important;
+  border-radius: 3px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn:hover {
+  background-color: white !important;
+  border: 2px #32325d solid !important;
+  border-radius: 3px !important;
+  color: #32325d !important;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn.text {
+  background-color: transparent;
+  color: #32325d !important;
+}
+
+.btn.text:hover {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: #845cff !important;
+}
+
+/*******************/
+/***** TOOLBOX *****/
+/*******************/
+
+.w-33 {
+  width: 33%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-66 {
+  width: 66%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.start {
+  margin-right: auto;
+}
+
+.end {
+  margin-left: auto;
+}
+
+.v-end {
+  margin-top: auto;
+}
+
+.auto {
+  margin: auto;
+}
+
+
+.space-between {
+  justify-content: space-between;
+}
+
+h1 {
+  color: #32325d;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+i {
+  padding-left: 5px;
+}
+
+a {
+  transition: all 0.15s ease-in-out;
+}
+
+a:hover {
+  transition: all 0.15s ease-in-out;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.block {
+  background-color: white;
+  box-shadow: -6.691px 7.431px 20px 0px rgba(212, 212, 250, 0.2);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.block.transparent {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/*******************/
+/***** LAYOUTS *****/
+/*******************/
+
+#features {
+  margin-top: -30vh;
+}
+
+#features-detailed {
+  background-image: url('../img/bg_features-list.png');
+  background-repeat: no-repeat;
+}
+
+#features .grid {
+  grid-template-columns: repeat(2, 400px);
+  grid-template-rows: repeat(2, 400px);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  justify-content: space-around;
+}
+
+#features-detailed-list.grid {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+}
+
+.features-detailed-item {
+  display: grid;
+  text-align: center;
+}
+
+.features-detailed-item img,
+.features-detailed-item h3
+.features-detailed-item p {
+  justify-self: center;
+}
